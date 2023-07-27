@@ -1,5 +1,5 @@
 #Developed by Adriano Sanna at the Institute for Anatomy and Cell Biology, JLU Giessen. 
-# version2 (with GUI), finished on 24.07.2023
+# version2 (with GUI), finished on 27.07.2023
 
 import xlsxwriter
 import tkinter as tk
