@@ -15,7 +15,7 @@ datetime
 tkinter 
 os
 
-In this version has been done the following updates:
+In this version the following updates have been done:
 - a graphic user interface has been added to make the program easier to use 
 - a bug in convert() function has been corrected 
 
