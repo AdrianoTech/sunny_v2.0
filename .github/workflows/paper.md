@@ -11,13 +11,11 @@ authors:
     orcid: 0009-0002-6282-6003\
     mail: Adriano.Sanna@anatomie.med.uni-giessen.de \
     equal-contrib: true \
-    affiliation: 1 
+    affiliation: Department of Anatomy and Cell Biology Justus-Liebig University (JLU) Giessen, Germany
   - name: Klaus Deckmann \
     mail: Klaus.Deckmann@anatomie.med.uni-giessen.de \
     equal-contrib: false \
-    affiliation: 1  
-affiliations: Department of Anatomy and Cell Biology Justus-Liebig University (JLU) Giessen, Germany
-    index: 1
+    affiliation: Department of Anatomy and Cell Biology Justus-Liebig University (JLU) Giessen, Germany
 
 date: 05 October 2023
 bibliography: paper.bib
