@@ -5,7 +5,7 @@ tags:
   - biology
   - Ussing chamber
   - gui interface
-  - tkinter \ \
+  - tkinter \ 
 authors:
   - name: Adriano Sanna \
     orcid: 0009-0002-6282-6003\
@@ -15,10 +15,9 @@ authors:
   - name: Klaus Deckmann \
     mail: Klaus.Deckmann@anatomie.med.uni-giessen.de \
     equal-contrib: false \
-    affiliation: 1 \ \
-affiliations:
- - name: Department of Anatomy and Cell Biology Justus-Liebig University (JLU) Giessen, Germany
-   index: 1
+    affiliation: 1 \ 
+affiliations: Department of Anatomy and Cell Biology Justus-Liebig University (JLU) Giessen, Germany
+    index: 1
 
 date: 05 October 2023
 bibliography: paper.bib
