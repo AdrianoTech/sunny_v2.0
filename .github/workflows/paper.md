@@ -11,7 +11,7 @@ authors:
     orcid: 0009-0002-6282-6003\
     mail: Adriano.Sanna@anatomie.med.uni-giessen.de \
     equal-contrib: true \
-    affiliation: 1 \
+    affiliation: 1 
   - name: Klaus Deckmann \
     mail: Klaus.Deckmann@anatomie.med.uni-giessen.de \
     equal-contrib: false \
