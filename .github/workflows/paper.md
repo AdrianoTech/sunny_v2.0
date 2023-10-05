@@ -1,11 +1,11 @@
 
 # Sunny: A Python programm to ease Ussing chamber data analysis
-tags:
+tags: 
   - Python
   - biology
   - Ussing chamber
   - gui interface
-  - tkinter \ 
+  - tkinter  
 authors:
   - name: Adriano Sanna \
     orcid: 0009-0002-6282-6003\
@@ -15,7 +15,7 @@ authors:
   - name: Klaus Deckmann \
     mail: Klaus.Deckmann@anatomie.med.uni-giessen.de \
     equal-contrib: false \
-    affiliation: 1 \ 
+    affiliation: 1  
 affiliations: Department of Anatomy and Cell Biology Justus-Liebig University (JLU) Giessen, Germany
     index: 1
 
