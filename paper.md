@@ -1,113 +1,42 @@
 
-title: 'Gala: A Python package for galactic dynamics'
-tags:
+
+# Sunny: A Python programm to ease Ussing chamber data analysis
+tags: 
   - Python
-  - astronomy
-  - dynamics
-  - galactic dynamics
-  - milky way
+  - biology
+  - Ussing chamber
+  - gui interface
+  - tkinter  
 authors:
-  - name: Adrian M. Price-Whelan
-    orcid: 0000-0000-0000-0000
-    equal-contrib: true
-    affiliation: "1, 2" # (Multiple affiliations must be quoted)
-  - name: Author Without ORCID
-    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
-    affiliation: 2
-  - name: Author with no affiliation
-    corresponding: true # (This is how to denote the corresponding author)
-    affiliation: 3
-affiliations:
- - name: Lyman Spitzer, Jr. Fellow, Princeton University, USA
-   index: 1
- - name: Institution Name, Country
-   index: 2
- - name: Independent Researcher, Country
-   index: 3
-date: 13 August 2017
+  - name: Adriano Sanna \
+    orcid: 0009-0002-6282-6003\
+    mail: Adriano.Sanna@anatomie.med.uni-giessen.de \
+    equal-contrib: true \
+    affiliation: 1 
+  - name: Klaus Deckmann \
+    mail: Klaus.Deckmann@anatomie.med.uni-giessen.de \
+    equal-contrib: false \
+    affiliation: 1  
+affiliations: Department of Anatomy and Cell Biology Justus-Liebig University (JLU) Giessen, Germany
+    index: 1
+
+date: 05 October 2023
 bibliography: paper.bib
 
-aas-doi: 10.3847/xxxxx <- update this with the DOI from AAS once you know it.
-aas-journal: JOSS
+## Summary
+
+Ussing Chamber is a device used to record the current generating by transepithelial ion transport in biological membranes. The Ussing chamber device produced by “Scientific Instruments” is provided with a software, Clamp (developed by M. Ing. A. Mund),  that produces files using the .cla extension. These files can be imported into excel, but the data elaboration takes a significant amount of time for the operator. The presented program, sunny.py, converts the .cla files into .xlsx file, thanks to a graphic user interface (GUI, Fig.1, tkinter library). This conversion allows a good automatization in data analysis: (1) the user will have the new tables having in the first line the titles and in the following lines directly the data. Data in this format can be directly imported into R (2) the intervals of drugs administration are reported in a specific column, making it easier to the operator to have an overview on the experiment workflow (3) delta of the electric Intensity per square centimeter of biological tissue (Isc) is automatically calculated.
+
+![Figure 1: Sunny´s graphic user interface.](image.png)
 
 
-# Summary
+## Statement of need
 
-The forces on stars, galaxies, and dark matter under external gravitational
-fields lead to the dynamical evolution of structures in the universe. The orbits
-of these bodies are therefore key to understanding the formation, history, and
-future state of galaxies. The field of "galactic dynamics," which aims to model
-the gravitating components of galaxies to study their structure and evolution,
-is now well-established, commonly taught, and frequently used in astronomy.
-Aside from toy problems and demonstrations, the majority of problems require
-efficient numerical tools, many of which require the same base code (e.g., for
-performing numerical orbit integration).
+"Sunny.py" is a program developed to make Ussing chamber data analysis faster and more reliable. By importing the Ussing Chamber data (.cla) into excel the user encounter many obstacles: (1) data are not ordered in a title-data manner (2) it´s difficult to find the time of chemical injection (3) intervals between two chemicals administrations are not specified (4) basic statistic is not reported. All this work take a significant amount of time to a  scientist and since this work consists of dragging and copying intervals of data, the human error becomes possible. With Sunny there is a completely automatization of this process. The user will use an intuitive point and click interface. The design is very simple with only 4 buttons: one for selecting the file, another one for selecting the file destination, a tick-button to save the preliminary graph and a button to convert the file.
 
-# Statement of need
+## Acknowledgements
 
-`Gala` is an Astropy-affiliated Python package for galactic dynamics. Python
-enables wrapping low-level languages (e.g., C) for speed without losing
-flexibility or ease-of-use in the user-interface. The API for `Gala` was
-designed to provide a class-based and user-friendly interface to fast (C or
-Cython-optimized) implementations of common operations such as gravitational
-potential and force evaluation, orbit integration, dynamical transformations,
-and chaos indicators for nonlinear dynamics. `Gala` also relies heavily on and
-interfaces well with the implementations of physical units and astronomical
-coordinate systems in the `Astropy` package [@astropy] (`astropy.units` and
-`astropy.coordinates`).
+I would like to thank Petra Mermer and my team colleagues for introducing me to the Ussing chamber and sharing with me their knowledge (and coffee).
 
-`Gala` was designed to be used by both astronomical researchers and by
-students in courses on gravitational dynamics or astronomy. It has already been
-used in a number of scientific publications [@Pearson:2017] and has also been
-used in graduate courses on Galactic dynamics to, e.g., provide interactive
-visualizations of textbook material [@Binney:2008]. The combination of speed,
-design, and support for Astropy functionality in `Gala` will enable exciting
-scientific explorations of forthcoming data releases from the *Gaia* mission
-[@gaia] by students and experts alike.
 
-# Mathematics
-
-Single dollars ($) are required for inline mathematics e.g. $f(x) = e^{\pi/x}$
-
-Double dollars make self-standing equations:
-
-$$\Theta(x) = \left\{\begin{array}{l}
-0\textrm{ if } x < 0\cr
-1\textrm{ else}
-\end{array}\right.$$
-
-You can also use plain \LaTeX for equations
-\begin{equation}\label{eq:fourier}
-\hat f(\omega) = \int_{-\infty}^{\infty} f(x) e^{i\omega x} dx
-\end{equation}
-and refer to \autoref{eq:fourier} from text.
-
-# Citations
-
-Citations to entries in paper.bib should be in
-[rMarkdown](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html)
-format.
-
-If you want to cite a software repository URL (e.g. something on GitHub without a preferred
-citation) then you can do it with the example BibTeX entry below for @fidgit.
-
-For a quick reference, the following citation commands can be used:
-- `@author:2001`  ->  "Author et al. (2001)"
-- `[@author:2001]` -> "(Author et al., 2001)"
-- `[@author1:2001; @author2:2001]` -> "(Author1 et al., 2001; Author2 et al., 2002)"
-
-# Figures
-
-Figures can be included like this:
-![Caption for example figure.\label{fig:example}](figure.png)
-and referenced from text using \autoref{fig:example}.
-
-Figure sizes can be customized by adding an optional second parameter:
-![Caption for example figure.](figure.png){ width=20% }
-
-# Acknowledgements
-
-We acknowledge contributions from Brigitta Sipocz, Syrtis Major, and Semyeong
-Oh, and support from Kathryn Johnston during the genesis of this project.
-
-# References
+## References
