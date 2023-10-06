@@ -1,3 +1,4 @@
+´´´
 title: "Sunny: A Python programm to ease Ussing chamber data analysis"
 tags: 
   - python
@@ -18,6 +19,7 @@ affiliations:
  - name: Department of Anatomy and Cell Biology Justus Liebig University (JLU) Giessen, Germany
    index: 1
    
+date:
 bibliography: paper.bib
 
 ## Summary
@@ -25,7 +27,7 @@ bibliography: paper.bib
 Ussing Chamber is a device used to record the current generating by transepithelial ion transport in biological membranes. The Ussing chamber device produced by “Scientific Instruments” is provided with a software, Clamp (developed by M. Ing. A. Mund),  that produces files using the .cla extension. These files can be imported into excel, but the data elaboration takes a significant amount of time for the operator. The presented python [@Vanrossum2009] program, sunny.py, converts the .cla files into .xlsx file, thanks to a graphic user interface (GUI, Fig.1, tkinter library). This conversion allows a good automatization in data analysis: (1) the user will have the new tables having in the first line the titles and in the following lines directly the data. Data in this format can be directly imported into R (2) the intervals of drugs administration are reported in a specific column, making it easier to the operator to have an overview on the experiment workflow (3) delta of the electric Intensity per square centimeter of biological tissue (Isc) is automatically calculated.
 
 ![Figure 1: Sunny´s graphic user interface.](image.png)
-
+´´´
 
 ## Statement of need
 
