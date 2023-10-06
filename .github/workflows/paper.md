@@ -1,5 +1,5 @@
 ---
-title: "Sunny: A Python programm to ease Ussing chamber data analysis"
+title: "Sunny: A Python program to ease Ussing chamber data analysis"
 tags: 
   - python
   - biology
