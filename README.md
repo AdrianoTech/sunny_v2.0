@@ -1,4 +1,4 @@
-#Sunny.py
+# Sunny.py
 
 Sunny v.2.0 is a program (written in python) that in only 0.23 seconds (on a lapton running AMD Ryzen5 35000U CPU with Radeon Vega Mobile Gfx) is able to convert the data produced by Ussing Chamber software "Clamp" (devoleped by Dipl. Ing K. Mussler, Aachen), from .cla in ordered .xlsx tables.
 
