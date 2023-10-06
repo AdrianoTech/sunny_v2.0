@@ -30,8 +30,8 @@ In this version the following updates have been done:
 
 ## Test the Program
 There have been given two files to you, to test the program:
-- a .cla file (that can be converted with sunny.py into a .xlsx table)
-- an .xlsx table obtained by converting a .cla file with sunny
+- a .cla file (05_example.cla) that can be converted with sunny.py into a .xlsx table
+- an .xlsx (06_Example.xlsx) table obtained by converting a .cla file with sunny
 
 
 by question please write me at: Adriano.Sanna@anatomie.med.uni-giessen.de
