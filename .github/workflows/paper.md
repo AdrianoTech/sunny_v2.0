@@ -18,7 +18,6 @@ affiliations:
  - name: Department of Anatomy and Cell Biology Justus Liebig University (JLU) Giessen, Germany
    index: 1
    
-date: 
 bibliography: paper.bib
 
 ## Summary
