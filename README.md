@@ -14,7 +14,7 @@ matplotlib.pyplot \
 xlsxwriter \
 datetime \
 tkinter \
-os \ 
+os 
 
 to instal them you can easily execute "pip install" in cmd.  \
 I.e.: 
@@ -24,8 +24,8 @@ user@bar:~$ pip install xlsxwriter
 ```
 
 ## Improvements from v.1
-In this version the following updates have been done:\
-- a graphic user interface has been added to make the program easier to use\
+In this version the following updates have been done:
+- a graphic user interface has been added to make the program easier to use
 - a bug in convert() function has been corrected 
 
 ## Test the Program
