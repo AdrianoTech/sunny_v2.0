@@ -12,9 +12,10 @@ authors:
     affiliation: "1"
     corresponding: true
   - name: Klaus Deckmann 
-    mail: Klaus.Deckmann@anatomie.med.uni-giessen.de 
+    mail: Klaus.Deckmann@anatomie.med.uni-giessen.de
+    affiliation: "1"
 affiliations:
- - name: Department of Anatomy and Cell Biology Justus-Liebig University (JLU) Giessen, Germany
+ - name: Department of Anatomy and Cell Biology Justus Liebig University (JLU) Giessen, Germany
    index: 1
    
 date: 
