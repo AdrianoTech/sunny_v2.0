@@ -1,4 +1,4 @@
-
+---
 title: "Sunny: A Python programm to ease Ussing chamber data analysis"
 tags: 
   - python
@@ -21,6 +21,7 @@ affiliations:
    
 date: 06 October 2023
 bibliography: paper.bib
+---
 
 ## Summary
 
