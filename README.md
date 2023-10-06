@@ -14,9 +14,10 @@ matplotlib.pyplot \
 xlsxwriter \
 datetime \
 tkinter \
-os \
-\
-to instal them you can easily execute "pip install" in cmd). I.e.: 
+os \ \
+
+to instal them you can easily execute "pip install" in cmd.  \
+I.e.: 
 
 ```console
 user@bar:~$ pip install xlsxwriter
